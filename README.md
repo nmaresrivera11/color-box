@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Getting Started with Color Box
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Set up
 
-## Available Scripts
-
-In the project directory, you can run:
+Clone down the repository and then you will want to run the following:
 
 ### `yarn start`
 

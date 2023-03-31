@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Box from "./components/Box";
-import Button from "./components/Button";
+import BoxButton from "./components/BoxButton";
 import "./App.css";
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <h1> The Color Box! </h1>
-      <Button addBox={addBox} subBox={subBox} />
+      <BoxButton addBox={addBox} subBox={subBox} />
       <div className="color-boxes">
         {boxes.map((box, index) => {
           return <div key={index}>{box}</div>;

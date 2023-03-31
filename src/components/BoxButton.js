@@ -1,4 +1,4 @@
-const Button = (props) => {
+const BoxButton = (props) => {
   return (
     <>
       <div className="buttons">
@@ -9,4 +9,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default BoxButton;
