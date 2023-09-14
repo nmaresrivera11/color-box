@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 const Box = () => {
-  const [currentColor, setCurrentColor] = useState("white");
-  const colors = ["red", "orange", "blue", "black", "purple", "pink"];
+  const [currentColor, setCurrentColor] = useState("white")
 
   const colorSelector = () => {
-    const randomNum = Math.floor(Math.random() * colors.length);
-    setCurrentColor(colors[randomNum]);
-  };
+    setCurrentColor('#' + Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, '0'))
+  }
 
   return (
     <>
@@ -17,7 +15,7 @@ const Box = () => {
         onClick={colorSelector}
       ></div>
     </>
-  );
-};
+  )
+}
 
-export default Box;
+export default Box
